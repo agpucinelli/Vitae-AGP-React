@@ -22,6 +22,7 @@ export const ProjectsStlContainer = styled.div `
     display: block;
     justify-content: center;
     margin-top:15px;
+    margin-bottom:15px;
     }
     
 
