@@ -9,7 +9,10 @@ export const HeaderContainer = styled.div `
     background-color: aliceblue;
     align-items:center;
     background-color: rgba(0, 0, 0, 0.2);
-    
+    @media (max-width: 767px) {
+      margin:0px;
+      
+}
 
 `;
 
@@ -21,6 +24,10 @@ export const HeaderAvatar = styled.img `
     margin-left: 20px;
     -webkit-box-shadow: 4px 0px 13px 2px rgba(0,0,0,0.55); 
 box-shadow: 4px 0px 13px 2px rgba(0,0,0,0.55);
+@media (max-width: 767px) {
+  margin-left: 10px;
+      
+}
 
 `
 export const HeaderTitle = styled.div `
@@ -43,6 +50,10 @@ color: #585b61;
 background-color: white;
 font-family: 'Space Mono', monospace;
 opacity:0.7;
+@media (max-width: 767px) {
+  font-size:12px;
+}
+
 `
 
 export const HeaderLinks = styled.div`
@@ -57,8 +68,10 @@ margin-left: 20px;
 
 @media (max-width: 767px) {
     img {
-    width: 30px;
-    margin: 2px;
+    width: 35px;
+    margin:0px 10px 0 0;    
+    
+    
     }
 
 
