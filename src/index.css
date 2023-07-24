@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  background-image: url('https://media2.giphy.com/media/ITRemFlr5tS39AzQUL/giphy.gif?cid=ecf05e47xkp7bll5ql6h76eu0y8z6qehklklz1hohj06517i&ep=v1_gifs_search&rid=giphy.gif&ct=g');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(245, 242, 242, 0);
+  
+
+}
+@media (max-width: 767px) {
+  body {
+    margin: 0;
+    background-image: url('../giphy2.gif');
+    background-size: 100%;
+    background-repeat: repeat;
+    background-color: rgba(245, 242, 242, 0);
+  }
+
+
+}
+
